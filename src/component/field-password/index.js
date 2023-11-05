@@ -3,6 +3,7 @@ class FieldPassword {
     target.toggleAttribute('show')
 
     const input = target.previousElementSibling
+
     const type = input.getAttribute('type')
 
     if (type === 'password') {

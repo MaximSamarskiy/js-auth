@@ -8,7 +8,6 @@ export const REG_EXP_PASSWORD = new RegExp(
 
 export class Form {
   FIELD_NAME = {}
-
   FIELD_ERROR = {}
 
   value = {}
@@ -34,6 +33,7 @@ export class Form {
     const span = document.querySelector(
       `.form__error[name="${name}"]`,
     )
+
     const field = document.querySelector(
       `.validation[name="${name}"]`,
     )
